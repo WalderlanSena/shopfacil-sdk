@@ -1,0 +1,28 @@
+{
+    "name": "mvs/shopfacil-sdk",
+    "description": "Biblioteca para integração da API de pagamentos via boleto do banco Bradesco.",
+    "type": "library",
+    "license": "MIT",
+    "version": "v1.0.0",
+    "authors": [
+        {
+            "name": "Walderlan Sena",
+            "email": "senawalderlan@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Mvs\\ShopFacilSdk\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "Mvs\\ShopFacilSdk\\Tests\\": "tests/"
+    },
+    "require": {
+        "php": ">=7.0",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.4"
+    }
+}
